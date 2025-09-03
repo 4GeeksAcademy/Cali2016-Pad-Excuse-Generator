@@ -7,32 +7,38 @@ margin-top: 400px;
 margin-left:20px;
 margin-bottom: 400px;
 font-size: 50px;
-font-family: fantasy;
-font-style: arial;
+font-family: fantasy, arial, cursive;
 background-image: url('https://images.unsplash.com/photo-1471899236350-e3016bf1e69e?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Zmxvd2VyfGVufDB8fDB8fHww');
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
 }
+
+
 .button {
-  display: inline-block;
-  padding: 40px 50px;
-  font-size: 60px;
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-  outline: none;
-  color: #000000;
-  background-color: rgb(237, 190, 198);
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px rgb(166, 162, 162);
+display: inline-block;
+padding: 40px 50px;
+font-size: 60px;
+cursor: pointer;
+text-align: center;
+text-decoration: none;
+outline: none;
+color: #000;
+background-color: rgb(237, 190, 198);
+border: none;
+border-radius: 15px;
+box-shadow: 0 9px rgb(166, 162, 162);
+transition: background-color 0.2s;
 }
+
+
 .button:hover {
-  background-color: #e77aa6
+background-color: #e77aa6
 }
+
+
 .button:active {
-  background-color: #rgb(237, 190, 198);
-  box-shadow: 0 7px #666;
-  transform: translateY(4px);
+background-color: rgb(237, 190, 198);
+box-shadow: 0 7px #666;
+transform: translateY(4px);
 }
